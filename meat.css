@@ -1,0 +1,122 @@
+.MeatfoodNames1,.MeatfoodNames2,.MeatfoodNames3,.MeatfoodNames4,.MeatfoodNames5,.MeatfoodNames6{
+    background-color: rgb(249, 222, 140);
+    display:grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    height:100px;
+    border-bottom-width:3px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(238, 188, 95);
+    padding-left:20px;
+    font-family:gaegu;
+    font-size:18px;
+
+    
+}
+
+
+.b{
+    margin-left:30px;
+    margin-right:50px;
+}
+
+
+.MeatfoodNames1:hover,.MeatfoodNames2:hover,.MeatfoodNames3:hover,.MeatfoodNames4:hover,.MeatfoodNames5:hover,.MeatfoodNames6:hover{
+    background-color: rgb(243, 229, 178);
+
+}
+.header{
+    margin-bottom:40px;
+}
+.meatItem{
+display:flex;
+justify-content: center;
+align-items: center;
+cursor:pointer;
+color:rgb(120,3,3);
+}
+
+.meatTitle{
+    margin-left:30px;
+    font-family: Gaegu;
+    font-size:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(120, 6, 6);
+}
+
+
+
+.right{
+    background-color: green;
+    color:white;
+    position:fixed;
+    width:100px;
+    right:0px; 
+    bottom:0px; 
+    top:0px;
+
+
+}
+
+.bg,.bg2,.bg3,.bg4,.bg5,.bg6{
+    background-color: rgba(0, 0, 0, 0.5);
+    position:absolute;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    right:0px; 
+    bottom:0px; 
+    top:0px;
+    left:0px;
+
+}
+
+
+.tile,.tile2,.tile3,.tile4,.tile5,.tile6{
+    background-color: rgb(243, 229, 216);
+    color:rgb(178, 94, 10);
+    width:700px;
+    height:600px;;
+    border-radius:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family:gaegu;
+
+}
+
+
+li{
+    padding-left:20px;
+
+}
+
+.modal,.modal2,.modal3,.modal4,.modal5,.modal6{
+    font-weight:bold;
+    font-size:30px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    padding-top:30px;
+    border-bottom-width: 2px;
+    border-bottom-color:rgb(226, 68, 63);
+    border-bottom-style:dashed;
+}
+
+.stuffneeded,.stuffneeded2,.instruct,.instruct2,.stuffneeded3,.instruct3,.instruct4,.stuffneeded4,.instruct5,.stuffneeded5,.instruct6,.stuffneeded6{
+    font-size:30px;
+    margin-bottom:0px;
+    margin-top:10px;
+    padding-bottom:0px;
+    padding-top:-10px;
+}
+.porktender,.roast{
+    width:300px;
+    height:200px;
+    border-radius:20px;
+    margin-bottom:40px;
+   
+
+}
+
+
